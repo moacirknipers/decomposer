@@ -1,0 +1,15 @@
+.search-box {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+
+.search-box-area {
+    display: flex;
+    flex-direction: row;
+}
+
+.search-box-area select {
+    width: 300px
+}

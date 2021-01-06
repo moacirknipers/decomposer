@@ -1,0 +1,30 @@
+.container-body {
+  display: grid;
+  grid-template-columns: 90px 12fr;
+  grid-template-rows: 10vh 90vh;
+  grid-template-areas: "side header"
+                        "side main";  
+}
+
+.header {
+  grid-area: header;
+  border-bottom: solid 1.3px #cccccc;
+}
+
+.side {
+  grid-area: side;
+  background-color: #4f4e4e;
+  display: flex;
+  flex-direction: column;
+  overflow: auto;
+}
+
+.main {
+  background-color: #f7f7f7;
+  grid-area: main;
+  overflow: auto;
+}
+
+
+/* TELA DE VARIAVIES */
+

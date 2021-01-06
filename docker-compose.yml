@@ -1,0 +1,36 @@
+version: '3'
+
+services:
+    frontend:
+        build:
+            dockerfile: ./Dockerfile
+            context: ./frontend
+        image:  frontend-decomposer
+        ports:
+            - "80:80"
+        networks: 
+            - decomposer-network
+        depends_on:
+            - "backend"
+        tty: true
+    mongo:
+        image: mongo
+        ports:
+            - "27017:27017"
+        networks:
+            - decomposer-network
+    backend:
+        build:
+            dockerfile: ./Dockerfile
+            context: ./backend
+        ports:
+            - "8080:8080"
+        image: backend-decomposer
+        networks:
+            - decomposer-network
+        depends_on:
+            - "mongo"
+networks:
+    decomposer-network:
+        driver: bridge
+    

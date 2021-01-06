@@ -1,0 +1,58 @@
+
+
+.btn-area {
+    display: flex;
+    flex-direction: column;
+    background-color: #48ABE8;
+    color: white;
+    height: 30px;
+    width: 30px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 2px;
+}
+
+.btn-save-area {
+    display: flex;
+    flex-direction: column;
+    float: right;
+    background-color: #0F1D75;
+    color: white;
+    font-weight: bold;
+    width: 115px;
+    height: 30px;
+    margin: 26px 10px 10px 10px;
+    border-radius: 2px;
+
+}
+
+.search-description {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+
+button:focus {
+    outline: 0 !important;
+    border: 0 !important;
+}
+
+.table-pagination-control {
+    width: 200px;
+    background-color: white;
+    height: 35px;
+    border-radius: 3px;
+    border: solid 1px #cfcfcf;
+    display: flex;
+    flex-direction: row;
+}
+
+.pagination-item {
+    display: flex;
+    width: 20%;
+    height: 100%;
+    align-items: center;
+    border-right: solid 1px #cfcfcf;
+    justify-content: center;
+}

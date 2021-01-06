@@ -1,0 +1,77 @@
+.message {
+    display: flex;
+    flex-direction: row;
+    color: white;
+    height: 70px;
+    align-items: center;
+    border-radius: 3px;
+    margin: 7px auto;
+    max-width: 100%;
+    text-overflow: ellipsis;   
+}
+
+.alert-error {
+    background-color: #FF4136;
+}
+
+.alert-success {
+    background-color: #2ECC40;
+}
+.icon-holder {
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    align-items: center;
+}
+
+.success {
+    background-color: #27AE60;
+}
+
+.error {
+    background-color: #C0392B;
+}
+
+.text-holder {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.button {
+    background: inherit;
+  
+    box-shadow: 0px 0px 0px transparent;
+  
+    border: 0px solid transparent;
+  
+    text-shadow: 0px 0px 0px transparent;
+  }
+  
+  .button:hover {
+    background: inherit;
+  
+    box-shadow: 0px 0px 0px transparent;
+  
+    border: 0px solid transparent;
+  
+    text-shadow: 0px 0px 0px transparent;
+  
+    outline: none;
+  }
+  
+  .button:focus {
+    background: inherit;
+  
+    box-shadow: 0px 0px 0px transparent;
+  
+    border: 0px solid transparent;
+  
+    text-shadow: 0px 0px 0px transparent;
+  
+    outline: none;
+  }
+  

@@ -1,0 +1,53 @@
+.side-title {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: #6b6a6a;
+    height: 10%;
+    color: white;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+  }
+  
+  .title-btn {
+    background-color: inherit;
+    outline: 0;
+    border: 0;
+    color: white;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .title-btn:focus {
+    outline: 0;
+    border: 0;
+  }
+
+.sidenav {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.sidenav-item {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  height: 60px;
+  color: white;
+  border-bottom: 1px solid #6b6a6a;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  padding: 10px;
+}
+
+.item-description {
+  font-size: 13px;
+  margin: 1px;
+  margin-left: 8px;
+  width: 160px;
+}

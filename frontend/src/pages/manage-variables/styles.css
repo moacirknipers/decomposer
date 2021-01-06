@@ -1,0 +1,141 @@
+h5 {
+    color: #6e6e6e;
+  }
+  
+  .btn-add {
+    background-color: #19458D;
+    color: white;
+    outline: 0;
+    border: 0;
+    height: 33px;
+    display: block;
+    border-radius: 2px;
+    width: 30px;
+    margin-top: 30px;
+  }
+  
+  
+  .input-area {
+      margin-right: 5px;
+  }
+  
+  .input-area-medium {
+    width: 25%;
+  }
+  
+  .input-area-quite-medium {
+    width: 15%;
+  }
+  
+  .input-area-small {
+    width: 10%;
+  }
+  
+  .input-area-large {
+    width: 35%;
+  }
+  
+  select {
+    height: 37px;
+    display: block;
+    border: solid 1px #cedcf5;
+    border-top: solid 2.5px #cedcf5;
+    border-radius: 3px;
+    width: 100%;
+  }
+  
+  select:focus {
+    border: solid 1px #cfcfcf;
+    outline: 0;
+    border-top: solid 2.5px #cfcfcf;
+  }
+  
+  
+  .btns-area {
+    float: right;
+    padding: 5px;
+  }
+  
+  .btn-back {
+    background-color: #FF4136;
+    color: white;
+    outline: 0;
+    border: 0;
+    border-radius: 2px;
+    margin: 10px;
+    height: 40px;
+    width: 130px;
+  }
+  
+  .btn-back:focus {
+    outline: 0;
+    border: 0;
+    background-color: #FF4136;
+    color:white;
+  }
+  
+  .btn-save {
+    background-color: #19458D;
+    color: white;
+    outline: 0;
+    border: 0;
+    border-radius: 2px;
+    margin: 10px;
+    height: 40px;
+    width: 130px;
+  }
+  .btn-save:focus {
+    outline: 0;
+    border: 0;
+    background-color: #19458D;
+    color:white;
+  }
+
+  .btn-execute {
+    background-color: #4ae072;
+    color: white;
+    outline: 0;
+    border: 0;
+    border-radius: 2px;
+    margin: 10px;
+    height: 40px;
+    width: 130px;
+  }
+  .btn-execute:focus {
+    outline: 0;
+    border: 0;
+    background-color: #4ae072;
+    color:white;
+  }
+
+  .btn-search {
+    background-color: #48ABE8;
+    color: white;
+    border-radius: 2px;
+    margin: 10px;
+    height: 35px;
+    width: 130px;
+    margin-top: 30px;
+  }
+  .btn-search:focus {
+    outline: 0;
+    border: 0;
+    background-color: #48ABE8;
+    color:white;
+  }
+
+  textarea {
+    width: 60%;
+    border: solid 1px #cfcfcf;
+    padding: 10px;
+    resize: none;
+  }
+
+  textarea:active {
+    outline: none;
+    border: solid 1px #cfcfcf;
+  }
+  textarea:focus {
+    outline: none;
+    border: solid 1px #cfcfcf;
+  }

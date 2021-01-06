@@ -1,0 +1,84 @@
+h5 {
+    color: #6e6e6e;
+  }
+  
+  .btn-add {
+    background-color: #19458D;
+    color: white;
+    outline: 0;
+    border: 0;
+    height: 33px;
+    display: block;
+    border-radius: 2px;
+    width: 30px;
+    margin-top: 30px;
+  }
+  
+  
+  .input-area {
+      margin-right: 5px;
+  }
+  
+  .input-area-medium {
+    width: 25%;
+  }
+  
+  .input-area-quite-medium {
+    width: 15%;
+  }
+  
+  .input-area-small {
+    width: 10%;
+  }
+  
+  .input-area-large {
+    width: 35%;
+  }
+  
+  select {
+    height: 37px;
+    display: block;
+    border: solid 1px #cedcf5;
+    border-top: solid 2.5px #cedcf5;
+    border-radius: 3px;
+    width: 100%;
+  }
+  
+  select:focus {
+    border: solid 1px #cfcfcf;
+    outline: 0;
+    border-top: solid 2.5px #cfcfcf;
+  }
+  
+  
+  .btns-area {
+    float: right;
+    padding: 5px;
+  }
+  
+  .btn-back {
+    background-color: #FF4136;
+    color: white;
+    outline: 0;
+    border: 0;
+    border-radius: 2px;
+    margin: 10px;
+    height: 40px;
+    width: 130px;
+  }
+  
+  .btn-back:focus {
+    outline: 0;
+    border: 0;
+  }
+  
+  .btn-save {
+    background-color: #19458D;
+    color: white;
+    outline: 0;
+    border: 0;
+    border-radius: 2px;
+    margin: 10px;
+    height: 40px;
+    width: 130px;
+  }

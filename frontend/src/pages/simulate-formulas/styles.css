@@ -1,0 +1,37 @@
+.btn-execute:focus {
+    background-color: #27AE60;
+    color: white;
+    outline: 0;
+    border: 0;
+}
+
+.btns-area {
+    float: right;
+    padding: 5px;
+}
+
+.btn-back {
+    background-color: #FF4136;
+    color: white;
+    outline: 0;
+    border: 0;
+    border-radius: 2px;
+    margin: 10px;
+    height: 40px;
+    width: 130px;
+}
+
+.modal-btn-close {
+    float: right;
+    clear: both;
+}
+
+.lupa {
+    margin-top: 25px;
+}
+
+.text-area {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}

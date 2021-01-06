@@ -1,0 +1,18 @@
+.table-pagination-control {
+    width: 200px;
+    background-color: white;
+    height: 35px;
+    border-radius: 3px;
+    border: solid 1px #cfcfcf;
+    display: flex;
+    flex-direction: row;
+}
+
+.pagination-item {
+    display: flex;
+    width: 20%;
+    height: 100%;
+    align-items: center;
+    border-right: solid 1px #cfcfcf;
+    justify-content: center;
+}
